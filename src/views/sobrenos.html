@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Funerária Silêncio - Sobre Nõs</title>
+  <title>Funerária Silêncio - Sobre Nós</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,47 +39,90 @@
     </nav>
 
   </header>
-<main class="h-[vh-80] mt-2"> 
-  <section>
-    <div class="text-2xl text-gray-900 mb-4 text-left" style="font-family: 'Mystery Quest', cursive;">
-      <h1 class="text-3xl font-semibold mb-6 text-center">Funerária Silêncio</h1>
-      <p class="text-center">Somos uma funerária dedicada a oferecer apoio, respeito e cuidado nos momentos mais
-        delicados da vida.</br> Com uma
-        equipe experiente e sensível, acompanhamos cada família com atenção e empatia, garantindo que cada
-        despedida</br>
-        seja feita com dignidade e serenidade.</p>
+  <main class="h-[vh-80] mt-2">
+    <section>
+      <div class="text-2xl text-gray-900 mb-4 text-left" style="font-family: 'Mystery Quest', cursive;">
+        <h1 class="text-3xl font-semibold mb-6 text-center">Funerária Silêncio</h1>
+        <p class="text-center">Somos uma funerária dedicada a oferecer apoio, respeito e cuidado nos momentos mais
+          delicados da vida.</br> Com uma
+          equipe experiente e sensível, acompanhamos cada família com atenção e empatia, garantindo que cada
+          despedida</br>
+          seja feita com dignidade e serenidade.</p>
       </div>
-      
-  </section>
 
-  
-  <div class="justify-items-center grid grid-cols-1 md:grid-cols-3 gap-8 w-3/4 mx-auto my-6" style="font-family: 'Mystery Quest', cursive;">
-    <div class="bg-gray-200 h-80 shadow-md p-4 rounded-lg flex flex-col justify-center">
-      <h2 class="text-center text-3xl font-semibold mb-4 py-4">Missão</h2>
-      <p>Missão - Oferecer apoio humano e serviços funerários com respeito, dignidade e sensibilidade, proporcionando
-        tranquilidade às famílias em momentos delicados.</p>
-    </div>
-    <div class="bg-gray-200 h-80 shadow-md p-4 rounded-lg flex flex-col justify-center">
-      <h2 class="text-center text-3xl font-semibold mb-4 py-4">Visão</h2>
-      <p>Visão - Ser referência em atendimento funerário na região, reconhecida pela excelência, empatia e compromisso
-        com o cuidado integral às famílias.</p>
-    </div>
-    <div class="bg-gray-200 h-80 shadow-md p-4 rounded-lg flex flex-col justify-center">
-      <h2 class="text-center text-3xl font-semibold mb-4 py-4">Valores</h2>
-      <p class="mb-4">Respeito: Tratamos cada história com consideração e humanidade.<br>
-        Empatia: Entendemos a dor do luto e acolhemos com sensibilidade.<br>
-        Transparência: Atuamos com clareza e ética em todos os processos.
-      </p>
-    </div>
-  </div>
+    </section>
 
 
-  <section class="bg-gray-100 py-10">
-    <div class="text-center space-y-4">
+    <div class="justify-items-center grid grid-cols-1 md:grid-cols-3 gap-8 w-3/4 mx-auto my-6"
+      style="font-family: 'Mystery Quest', cursive;">
+      <div class="bg-gray-200 h-80 shadow-md p-4 rounded-lg flex flex-col justify-center">
+        <h2 class="text-center text-3xl font-semibold mb-4 py-4">Missão</h2>
+        <p>Missão - Oferecer apoio humano e serviços funerários com respeito, dignidade e sensibilidade, proporcionando
+          tranquilidade às famílias em momentos delicados.</p>
+      </div>
+      <div class="bg-gray-200 h-80 shadow-md p-4 rounded-lg flex flex-col justify-center">
+        <h2 class="text-center text-3xl font-semibold mb-4 py-4">Visão</h2>
+        <p>Visão - Ser referência em atendimento funerário na região, reconhecida pela excelência, empatia e compromisso
+          com o cuidado integral às famílias.</p>
+      </div>
+      <div class="bg-gray-200 h-80 shadow-md p-4 rounded-lg flex flex-col justify-center">
+        <h2 class="text-center text-3xl font-semibold mb-4 py-4">Valores</h2>
+        <p class="mb-4">Respeito: Tratamos cada história com consideração e humanidade.<br>
+          Empatia: Entendemos a dor do luto e acolhemos com sensibilidade.<br>
+          Transparência: Atuamos com clareza e ética em todos os processos.
+        </p>
+      </div>
+    </div>
+
+
+    <section class="grid grid-cold-1 md:grid-cols-2 gap-6 my-6 p-4">
+      <form action="/contato" method="post" class=" bg-white p-6 rounded-lg shadow-md">
+        <div class="mb-4">
+          <label for="nome" class="block text-gray-700 font-medium">Nome</label>
+          <input type="text" id="nome" name="nome"
+            class="w-full border rounded p-2 mt-1 focus:ring-2 focus:ring-gray-500" required
+            placeholder="Digite seu nome">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-medium">Email</label>
+          <input type="email" id="email" name="email"
+            class="w-full border rounded p-2 mt-1 focus:ring-2 focus:ring-gray-500" required
+            placeholder="Digite seu Email">
+        </div>
+        <div class="mb-4">
+          <label for="telefone" class="block text-gray-700 font-medium">Telefone</label>
+          <input type="text" id="telefone" name="telefone"
+            class="w-full border rounded p-2 mt-1 focus:ring-2 focus:ring-gray-500" required
+            placeholder="Digite seu contato do telefone">
+        </div>
+        <div class="mb-4">
+          <label for="assunto" class="block text-gray-700 font-medium">Assunto</label>
+          <input type="text" id="assunto" name="assunto"
+            class="w-full border rounded p-2 mt-1 focus:ring-2 focus:ring-gray-500" required
+            placeholder="Ex: atendimento, orçamento, dúvidas">
+        </div>
+        <div class="mb-4">
+          <label for="mensagem" class="block text-gray-700 font-medium">Mensagem</label>
+          <textarea id="mensagem" name="mensagem"
+            class="w-full border rounded p-2 mt-1 focus:ring-2 focus:ring-gray-500" required rows="4"></textarea>
+        </div>
+        <button type="submit"
+          class="w-fulll bg-gray-700 text-white py-2 rounded-lg hover:bg-gray-800 transition">Enviar</button>
+      </form>
+
+      <div class="" style="font-family: 'Mystery Quest', cursive;">
+        <h2 class="text-3xl font-bold mb-4 text-brand-azul">Entre em Contato</h2>
+        <p>Estamos aqui para oferecer apoio com respeito e sensibilidade. Preencha o formulário abaixo e nossa equipe
+          entrará em contato o mais breve possível para ajudar no que for necessário.</p>
+      </div>
+    </section>
+
+    <section class="bg-gray-100 py-10">
+    <div class="flex flex-col justify-center items-center text-center space-y-4 gap-6">
       <h2 class="text-2xl font-semibold">Fale Conosco</h2>
-      <p class="mb-7" Estamos disponíveis 24h para atendê-lo com empatia e agilidade.</p>
-        <a href="tel:+5541666666666"
-          class="bg-black text-white px-6 py-3 rounded hover:bg-slate-600 transition mt-10">Ligar Agora</a>
+      <p class="mb-7">Estamos disponíveis 24h para atendê-lo com empatia e agilidade.</p>
+      <a href="tel:+5541666666666"
+        class="bg-black w-[150px] text-white px-6 py-3 rounded hover:bg-slate-600 transition mt-10">Ligar Agora</a>
     </div>
   </section>
 
@@ -98,8 +141,7 @@
 
 
 
-
-</main>
+  </main>
 
   <!-- RODAPÉ -->
   <footer class="place-items-center mt-10 text-center">
