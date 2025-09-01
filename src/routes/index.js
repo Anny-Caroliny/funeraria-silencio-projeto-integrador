@@ -3,7 +3,7 @@ const HomeController = require("../controllers/HomeController");
 const PlanosController = require('../controllers/PlanosController');
 const PlacasController = require('../controllers/PlacasController');
 const CaixoesController = require('../controllers/CaixoesController');
-const SobreController = require('../controllers/sobreController');
+const SobreController = require('../controllers/SobreController');
 const ContatoController = require("../controllers/ContatoController.js");
 
 const router = express.Router();
